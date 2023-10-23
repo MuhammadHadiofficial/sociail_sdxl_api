@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+diffusers
+torch
+pillow
+invisible_watermark
+transformers
+accelerate
+safetensors

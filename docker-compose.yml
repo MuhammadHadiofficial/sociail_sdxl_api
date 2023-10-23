@@ -1,0 +1,12 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  fastapi:
+    build: .
+    restart: always
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "8000:8000"
